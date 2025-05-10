@@ -1,0 +1,36 @@
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[window]
+#decorations = "None"
+#primary_background = "0x000000"  # Replace with your preferred color
+opacity = 0.5         # Set opacity between 0.0 and 1.0
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 18.0
+
+[font.bold]
+# family = "MesloLGS Nerd Font Mono"
+family = "CaskaydiaCove Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "CaskaydiaCove Nerd Font"
+# family = "MesloLGS Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "CaskaydiaCove Nerd Font"
+# family = "MesloLGS Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+# family = "MesloLGS Nerd Font Mono"
+family = "CaskaydiaCove Nerd Font"
+style = "Regular"
+
+

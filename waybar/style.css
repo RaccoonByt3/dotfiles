@@ -1,0 +1,120 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#workspaces {
+	background-color: rgba(52,53, 64, 0.8);
+	padding: 0.25em 0.4em;
+    	border-radius: 5px;
+	margin-left : 5px;
+	margin-right : 5px;
+	margin-top : 3px;
+	margin-bottom : 3px;
+}
+
+#workspaces button {
+	padding: 0.25em 0.4em;
+	background: transparent;
+	margin: 0.25em;
+	color: rgb(198, 208, 245);
+}
+
+#mpris {
+	color: rgb(198, 208, 245);
+	padding: 0.25em 0.4em;
+ 	margin-left : 100px;
+	margin-right : 5px;
+	margin-top : 3px;
+	margin-bottom : 3px;
+}
+
+#clock {
+	color: rgb(198, 208, 245);
+	padding: 0.25em 0.4em;
+	background-color: rgba(52,53, 64, 0.8);
+   	border-radius: 5px;
+ 	margin-left : 5px;
+	margin-right : 5px;
+	margin-top : 3px;
+	margin-bottom : 3px;
+}
+
+
+#waybar .modules-right {
+	color: rgb(198, 208, 245);
+	padding: 0.25em 0.6em;
+	background-color: rgba(52,53, 64, 0.8);
+   	border-radius: 5px;
+	margin-right : 5px;
+	margin-top : 3px;
+	margin-bottom : 3px;
+}
+
+#cpu {
+	color: rgb(198, 208, 245);
+	padding: 0.25em 0.4em;
+}
+
+
+
+#bluetooth {
+	color: rgb(198, 208, 245);
+	padding: 0.25em 0.4em;
+}
+
+#network {
+	color: rgb(198, 208, 245);
+	padding: 0.25em 0.4em;
+}
+
+#pulseaudio {
+	color: rgb(198, 208, 245);
+	padding: 0.25em 0.4em;
+}
+
+#memory {
+	color: rgb(198, 208, 245);
+	padding: 0.25em 0.4em;
+}
+
+#custom-power {
+	color: rgb(198, 208, 245);
+	padding: 0.25em 0.4em;
+}
+
+menu {
+	color: rgb(198, 208, 245);
+	padding: 0.25em 0.4em;
+	border-radius: 5px;
+	background-color: rgba(52,53, 64, 1);
+}
+menuitem {
+	border-radius: 5px;
+}
+
+#custom-vpn {
+	color: rgb(198, 208, 245);
+	padding: 0.25em 0.4em;
+	background-color: rgba(52,53, 64, 0.8);
+   	border-radius: 5px;
+ 	margin-left : 5px;
+	margin-right : 5px;
+	margin-top : 3px;
+	margin-bottom : 3px;
+}
+
+#custom-vpn.active {
+    color: #4caf50; /* green when VPN active */
+}
+
+#custom-vpn.inactive {
+	color: rgb(198, 208, 245);
+}
